@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/schedule_bk"
+    android:orientation="vertical">
+
+    <com.ptshell.calendar.view.BorderTextView
+        android:id="@+id/scheduleInfoTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@drawable/top_day"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/txt_date_schedule"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <com.ptshell.calendar.view.BorderTextView
+        android:id="@+id/scheduleInfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@drawable/top_day"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+</LinearLayout>

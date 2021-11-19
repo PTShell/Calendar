@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="txt_date_convert">日期转换</string>
+    <string name="txt_date_schedule">日程</string>
+    <string name="txt_query">查询</string>
+    <string name="txt_save">保存</string>
+    <string name="txt_edit">编辑</string>
+    <string name="txt_input_hint">请输入你的日程...</string>
+
+</resources>

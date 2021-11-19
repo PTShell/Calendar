@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ptshell.calendar.view.BorderText
+        android:id="@+id/toptext"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_38"
+        android:drawableLeft="@drawable/previous_year"
+        android:drawableRight="@drawable/next_year"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dp_35"
+        android:paddingRight="@dimen/dp_35"
+        android:textSize="@dimen/sp_15" />
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
